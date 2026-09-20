@@ -70,7 +70,7 @@ image = np.zeros((500, 500, 3), dtype=np.uint8)
 
 # Add text on the image using cv2.putText
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image, 'Tawqir Ahamed', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+cv2.putText(image, 'Sairam K', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
 # Create a simple square kernel (3x3)
 kernel = np.ones((3, 3), np.uint8)
@@ -95,9 +95,10 @@ closed_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
 
 ## Output
 
-<img width="407" height="412" alt="image" src="https://github.com/user-attachments/assets/ac3f1592-fcab-43bb-aeca-fc17f69e8449" />
+<img width="301" height="314" alt="image" src="https://github.com/user-attachments/assets/1f2c31e9-89c8-42d8-8784-50f20df4f944" />
 
-<img width="419" height="415" alt="image" src="https://github.com/user-attachments/assets/f517cace-50ce-4aaf-86b9-f86933a8d9bc" />
+<img width="303" height="317" alt="image" src="https://github.com/user-attachments/assets/8d5fb843-99ec-4c13-bfbf-dad6e7a3993f" />
+
 
 ### Original Image
 
